@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeSoft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="MacOs-products">
+        <div class="showcase">
+          <span class="order"></span>
+          <br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
+          <h1 class="title">Software Disponible para MacOs</h1>
+
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="navigateCard(-1)">
+              <img src="assets/img/back.svg" alt="" />
+            </button>
+            <button class="nav-button" onclick="navigateCard(1)">
+              <img src="assets/img/forward.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="card">
+            <img class="show" src="assets/img/homebrew.svg" alt="Homebrew" />
+            <div class="container">
+              <h3 class="card-title">Homebrew</h3>
+              <br />
+              <p>El gestor de paquetes para macOS (o Linux) que faltaba.</p>
+              <br />
+              <a target="_blank" rel="noopener noreferrer" href="https://brew.sh/es/">Descárgala</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="show"
+              src="assets/img/libreoffice.png"
+              alt="LibreOffice"
+            />
+            <div class="container">
+              <h3 class="card-title">LibreOffice</h3>
+              <br />
+              <p>Suite de Office libre y multiplataforma.</p>
+              <br />
+              <a target="_blank" rel="noopener noreferrer" href="https://formulae.brew.sh/cask/libreoffice#default"
+                >Descárgala</a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="show" src="assets/img/brave.svg" alt="Brave" />
+            <div class="container">
+              <h3 class="card-title">Brave</h3>
+              <br />
+              <p>
+                Bloquea anuncios. Ahorra datos. Y consigue páginas web mucho más
+                rápidas. Con sólo cambiar de navegador.
+              </p>
+              <br />
+              <a target="_blank" rel="noopener noreferrer" href="https://formulae.brew.sh/cask/brave-browser#default"
+                >Descárgala</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="src/card.js"></script>
+</body>
+</html>
